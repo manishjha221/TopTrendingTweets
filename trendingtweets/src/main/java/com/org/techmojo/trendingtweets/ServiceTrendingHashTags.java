@@ -71,7 +71,7 @@ public class ServiceTrendingHashTags {
 
 //printTopTrends print the top trending tweets
 	public void printTopTrends() {
-		System.out.println("*****Top trends are as******");
+		System.out.println("*****Top k:"+k+" trends are******");
 		System.out.println(topKTrends);
 	}
 }
